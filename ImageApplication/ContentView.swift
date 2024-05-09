@@ -23,9 +23,10 @@ struct ContentView: View {
                 .bold()
                 .padding(.top, 6.0)
                 
-        }
+            
+                }
         .padding()
-    }
+                            }
 }
 
 #Preview {
