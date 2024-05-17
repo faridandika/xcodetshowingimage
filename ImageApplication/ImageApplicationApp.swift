@@ -12,6 +12,8 @@ struct ImageApplicationApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+        
+            
         }
     }
 }
