@@ -19,10 +19,20 @@ struct ContentView: View {
             Image("flower")
                 .resizable()
                 .imageScale(.small)
-                .frame(width: 200.0, height: 300.0)
-                .cornerRadius(20)
+                .frame(width: 200.0, height: 300)
+                .cornerRadius(25)
             
-            Text("Hello, This is a flower!")
+            Text("Hello, This is a 25 CornerRadios flower 😃")
+                .bold()
+                .padding(.top, 6.0)
+            
+            Image("flower")
+                .resizable()
+                .imageScale(.small)
+                .frame(width: 200.0, height: 200)
+                .cornerRadius(100)
+            
+            Text("Hello, This is a 100 CornerRadios flower 😃")
                 .bold()
                 .padding(.top, 6.0)
                 
