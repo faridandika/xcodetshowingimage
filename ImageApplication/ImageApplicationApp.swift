@@ -4,6 +4,7 @@
 //
 //  Created by Farid Andika on 08/05/24.
 //
+//
 
 import SwiftUI
 
@@ -13,6 +14,8 @@ struct ImageApplicationApp: App {
         WindowGroup {
             ContentView()
         
+            
+            
             
         }
     }
